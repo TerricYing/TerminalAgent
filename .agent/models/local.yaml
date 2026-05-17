@@ -1,0 +1,5 @@
+local:
+  model_name: "local-model"
+  model_repo: "unsloth/Qwen3-0.6B-GGUF"
+  model_file: "Qwen3-0.6B-Q4_K_M.gguf"
+  temperature: 0.7

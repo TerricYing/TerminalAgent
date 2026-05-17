@@ -1,0 +1,5 @@
+profiles:
+  - name: default
+    provider: default-openai
+    model: deepseek-v4-flash
+    timeout_seconds: 30

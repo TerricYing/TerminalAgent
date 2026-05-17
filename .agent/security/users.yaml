@@ -1,0 +1,5 @@
+users:
+  - id: terric
+    role: admin
+  - id: runner
+    role: operator

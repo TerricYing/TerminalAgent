@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Build outputs (must stay separate from runtime data)
+build/
+dist/
+
+# Runtime task workspaces and temporary outputs
+.agent/runtime/workspaces/
+.agent/runtime/tmp/
+
+# Optional local databases and logs
+.agent/runtime/db/*.sqlite*
+.agent/sessionlogs/**/*.log
+.agent/plans/*
+.agent/security/keyring.json
+.agent/models/local/*
+.agent/runtime/*
+.agent/models/local.yaml
+.claude/*

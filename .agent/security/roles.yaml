@@ -1,0 +1,7 @@
+roles:
+  - name: admin
+    tools: [shell, powershell, cmd, file_read, file_write]
+  - name: operator
+    tools: [powershell, file_read, file_write]
+  - name: viewer
+    tools: [file_read]
